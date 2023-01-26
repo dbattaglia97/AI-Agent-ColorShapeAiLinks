@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lib\Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.7.82" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\LICENSE_CODE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>Copyright (c) 2019-2020 Nuno Fachada and Contributors</Copyright>
+    <Company>Lusófona University</Company>
+    <Version>1.0.0</Version>
+    <AssemblyTitle>ColorShapeLinks Console App</AssemblyTitle>
+    <DefineConstants>CSL_CONSOLEAPP</DefineConstants>
+    <AssemblyName>ColorShapeLinks.TextBased.App</AssemblyName>
+    <Authors>Nuno Fachada</Authors>
+    <Description>ColorShapeLinks AI competition console app</Description>
+    <PackageLicenseFile>LICENSE_CODE</PackageLicenseFile>
+    <PackageProjectUrl>https://videojogoslusofona.github.io/color-shape-links-ai-competition/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/VideojogosLusofona/color-shape-links-ai-competition</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
